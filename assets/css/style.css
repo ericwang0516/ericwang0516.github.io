@@ -337,12 +337,12 @@ h6 {
   color: #6064f4;
 }
 
-@media (max-width: 992px) {
+@media ( max-width: 992px ) {
   #mid_logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
   }
 
   #hero {
@@ -445,6 +445,32 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+#click-our-ig {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#click-our-ig a {
+  box-shadow: inset 0 0 0 0 #6064f4;
+  color: #6064f4;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+#click-our-ig a:hover {
+  color: #fff;
+  box-shadow: inset 1000px 0 0 0 #6064f4;
+}
+
+/* Presentational styles */
+#click-our-ig a {
+  color: #6064f4;
+  font-family: 'Poppins', sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
