@@ -413,6 +413,7 @@ section {
   font-size: 26px;
   color: #6064f4;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .about .content h4 {
@@ -451,24 +452,24 @@ section {
   margin-left: 10px;
 }
 
-#click-our-ig {
+#click-our-url {
   padding-top: 50px;
   margin-left: 20px;
 }
-#click-our-ig a {
+#click-our-url a {
   box-shadow: inset 0 0 0 0 #6064f4;
   color: #6064f4;
   padding: 0 .25rem;
   margin: 0 -.25rem;
   transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
 }
-#click-our-ig a:hover {
+#click-our-url a:hover {
   color: #fff;
   box-shadow: inset 1000px 0 0 0 #6064f4;
 }
 
 /* Presentational styles */
-#click-our-ig a {
+#click-our-url a {
   color: #6064f4;
   font-family: 'Poppins', sans-serif;
   font-size: 23px;
