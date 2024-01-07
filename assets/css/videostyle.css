@@ -28,13 +28,14 @@
 
 .tap_back a {
     font-size: 50px;
+    color: #515151;
 }
 
 .tap_back a :hover {
     color: #6064f4;
 }
 
-.tap_back a :visited {
+.tap_back a:visited {
     color: #515151;
 }
 
