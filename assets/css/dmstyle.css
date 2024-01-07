@@ -1,0 +1,78 @@
+@font-face {
+    font-family: GenYo-Gothic;
+    src: url('/assets/fonts/GenYoGothicTW-M-01.ttf') format('truetype');
+  }
+
+
+/* ----- 通用區 ----- */
+.display-block {
+    align-items: center;
+}
+
+:root {
+    font-family: GenYo-Gothic;
+}
+
+/* 網頁最上方區域 */
+.head {
+    width: auto;
+    height: 200px;
+    margin: 120px;
+    padding: 0;
+}
+
+.title_block {
+    float: left;
+}
+
+#title01 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+#title02 {
+    color: #6064f4;
+    font-size: 35px;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.title_symbols {
+    float: right;
+    letter-spacing: 10px;
+    font-size: 40px;
+    padding-right: 70px;
+    color: #9a9a9a;
+}
+
+/* 大Logo */
+.cover {
+    margin-left: 130px;
+}
+
+.cover #main-logo {
+    height: 500px;
+    float: left;
+}
+
+.cover #cover-info {
+    float: right;
+    margin-right: 500px;
+}
+
+#cover-info1-info {
+    display: flex;
+    width: 700px;
+}
+
+#cover-info1-info img {
+    width: 70px;
+}
+
+#cover-info1-info h3 {
+    font-size: 30px;
+}
+

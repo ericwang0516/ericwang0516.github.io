@@ -1,0 +1,121 @@
+@font-face {
+    font-family: GenYo-Gothic;
+    src: url('/assets/fonts/GenYoGothicTW-M-01.ttf') format('truetype');
+  }
+
+
+/* ----- 通用區 ----- */
+.display-block {
+    align-items: center;
+}
+
+:root {
+    font-family: GenYo-Gothic;
+}
+
+/* 網頁最上方區域 */
+.head {
+    width: auto;
+    height: 200px;
+    margin: 60px;
+    padding: 0;
+}
+
+.tap_back {
+    float: left;
+    padding-right: 3vw;
+}
+
+.tap_back a {
+    font-size: 50px;
+}
+
+.tap_back a :hover {
+    color: #6064f4;
+}
+
+.tap_back a :visited {
+    color: #515151;
+}
+
+.title_block {
+    float: left;
+}
+
+#title01 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+#title02 {
+    color: #6064f4;
+    font-size: 23px;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.videos {
+    margin: 60px;
+    align-items: center;
+}
+
+.videos iframe {
+    width: 500px;
+    height: 270px;
+    align-self: center;
+
+}
+
+@media (min-width: 826px) {
+
+    .head {
+        width: 100vw;
+        height: 200px;
+        margin-left: 120px;
+        padding: 0;
+    }
+
+    .tap_back {
+        float: left;
+        height: 100%;
+        padding-right: 30px;
+    }
+    
+    .tap_back a {
+        font-size: 50px;
+    }
+
+    #title01 {
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        letter-spacing: 4px;
+        margin: 0;
+    }
+    
+    #title02 {
+        color: #6064f4;
+        font-size: 35px;
+        letter-spacing: 4px;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    .videos {
+        margin-left: 120px;
+        align-items: center;
+    }
+    
+    .videos iframe {
+        width: 700px;
+        height: 410px;
+        align-self: center;
+    
+    }
+   
+  }
+
+
+
