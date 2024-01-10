@@ -39,14 +39,22 @@
         </nav>
     </header>
 
-  <section id="a1">
-    <div class="start_title">
-        <img src="/assets/images/dm/Image_001.png">
-        <div class="start_title_texts">
-            <h3>探索城市中的窗花設計</h3>
-            <h4>窗花立體造型</h4>
-        </div>
+    <!-- 全螢幕顯示區塊 (有call才醒) -->
+    <div id="img-viewer">
+        <span class="close" onclick="close_model()">&times;</span>
+        <img class="modal-content" id="full-image">
     </div>
+
+    <!-------- section1 探索城市中的窗花設計 窗花立體造型 -------->
+
+    <section id="a1">
+        <div class="start_title">
+            <img src="/assets/images/dm/Image_001.png">
+            <div class="start_title_texts">
+                <h3>探索城市中的窗花設計</h3>
+                <h4>窗花立體造型</h4>
+            </div>
+        </div>
     
     <div class="content">
         <img src="/assets/images/dm/Image_002.png">
@@ -97,7 +105,7 @@
     </div>
   </section>
 
-  <!--------  section2 -------->
+  <!-------- section2 窗花與光的表現 窗花燈 -------->
 
   <section id="a2">
     <div class="start_title">
@@ -157,7 +165,7 @@
     </div>
   </section>
 
-    <!--------  section3 -------->
+    <!-------- section3 植物與花器的比例之美 花器-------->
 
     <section id="a3">
         <div class="start_title">
@@ -204,7 +212,7 @@
         </div>
     </section>
 
-    <!--------  section4 -------->
+    <!-------- section4 比例、配合與關係 平衡之美-------->
 
     <section id="a4">
         <div class="start_title">
@@ -219,14 +227,16 @@
             <img src="/assets/images/dm/Image_025.jpg">
             <h3>作品陳列 / 戶外展區</h3>
             <p>萬物皆有比例，它的存在一定有其意義， 空間與產品之間，除了顏色、材質外，最 重要的就是產品尺寸與空間大小的比例關 係是否適合。 此課題結合苔球進行創作，同學除了需找 出苔球與花器的完美比例外，還需配合周 遭環境進行整體造型的搭配。</p>
-            <a href="./assets/images/展覽地圖.png" target="_blank" id="click-linker"><p>點我查看展覽地圖</p></a>
+            <div class='img-container'>
+                <img src="./assets/images/展覽地圖.png" class='img-source' onclick="full_view(this);">
+            </div>
             <p><b>指導老師 張鴻俞</b></p>
         </div>
     
         <div class="display">
             <div class="student">
                 <div>
-                    <img src="/assets/images/dm/Image_026.gif">
+                    <img src="/assets/images/dm/Image_026.gif" onclick="full_view(this);">
                     <h3>蘇姵云</h3>
                     <h2>S11740045</h2>
                 </div>
@@ -278,7 +288,7 @@
         </div>
     </section>
 
-    <!--------  section5 -------->
+    <!-------- section5 工藝之美 木椅-------->
 
     <section id="a5">
         <div class="start_title">
@@ -316,7 +326,9 @@
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
 
+    <script src="assets/js/image_expand.js"></script>
     <script src="assets/js/main.js"></script>
+    
 
 
 </body>
